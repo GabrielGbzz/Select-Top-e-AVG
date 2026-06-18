@@ -1,0 +1,5 @@
+SELECT * 
+FROM OrderDetails 
+WHERE Quantity > 10
+ORDER BY OrderID
+LIMIT 3;

@@ -1,0 +1,9 @@
+SELECT *
+FROM (
+SELECT * 
+FROM OrderDetails
+ORDER BY Quantity DESC 
+LIMIT 8
+) AS MaioresQuantidades
+ORDER BY OrderDetailID;
+

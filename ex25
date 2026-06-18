@@ -1,0 +1,8 @@
+SELECT *
+FROM (
+SELECT * 
+FROM OrderDetails
+ORDER BY OrderID ASC
+LIMIT 12
+) AS MenoresQuantidades
+ORDER BY ProductID;

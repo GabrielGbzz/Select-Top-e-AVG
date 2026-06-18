@@ -1,0 +1,4 @@
+SELECT * 
+FROM OrderDetails 
+LIMIT 5;
+
