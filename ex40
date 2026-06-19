@@ -1,0 +1,9 @@
+-- 40. Selecionar os 6 maiores valores de OrderDetailID, ordenados por Quantity.
+SELECT *
+FROM (
+    SELECT *
+    FROM OrderDetails
+    ORDER BY OrderDetailID DESC
+    LIMIT 6
+) AS T
+ORDER BY Quantity;
