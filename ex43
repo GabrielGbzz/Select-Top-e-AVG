@@ -1,0 +1,6 @@
+-- 43. Selecionar os 7 primeiros valores de OrderDetailID menores que 200, ordenados por OrderID.
+SELECT *
+FROM OrderDetails
+WHERE OrderDetailID < 200
+ORDER BY OrderID
+LIMIT 7;
