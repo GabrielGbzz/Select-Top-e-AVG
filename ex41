@@ -1,4 +1,4 @@
--- 41. Selecionar os 10 registros onde OrderID seja ímpar, ordenados por Quantity.
+
 SELECT *
 FROM OrderDetails
 WHERE OrderID % 2 <> 0
