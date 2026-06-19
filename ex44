@@ -1,0 +1,6 @@
+-- 44. Selecionar os 5 registros onde OrderID seja entre 100 e 200, ordenados por ProductID.
+SELECT *
+FROM OrderDetails
+WHERE OrderID BETWEEN 100 AND 200
+ORDER BY ProductID
+LIMIT 5;
