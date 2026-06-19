@@ -1,4 +1,4 @@
--- 42. Selecionar os 3 primeiros registros onde Quantity seja igual a 20, ordenados por ProductID.
+
 SELECT *
 FROM OrderDetails
 WHERE Quantity = 20
