@@ -1,0 +1,9 @@
+-- 45. Selecionar os 12 maiores valores de Quantity, ordenados por OrderDetailID.
+SELECT *
+FROM (
+    SELECT *
+    FROM OrderDetails
+    ORDER BY Quantity DESC
+    LIMIT 12
+) AS T
+ORDER BY OrderDetailID;
