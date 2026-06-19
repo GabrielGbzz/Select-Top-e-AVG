@@ -1,0 +1,9 @@
+
+SELECT *
+FROM (
+    SELECT *
+    FROM OrderDetails
+    ORDER BY ProductID DESC
+    LIMIT 10
+) AS T
+ORDER BY Quantity;
